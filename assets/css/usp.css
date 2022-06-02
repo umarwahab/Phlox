@@ -1,0 +1,64 @@
+section.usp-module {
+    width: 100%;
+    display: block;
+    margin: 13% 0;
+}
+
+section.usp-module .usp-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.usp-module .usp-wrapper .col {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.usp-wrapper .col .content h3 {
+    font-family: poppins, Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -.3px;
+    margin: 0;
+}
+
+.usp-wrapper .col .content span {
+    font-family: montserrat, Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -.5px;
+}
+
+
+/* Sale banner */
+
+@media screen and (max-width:1260px) {
+    section.usp-module .usp-wrapper .col {
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 18px auto;
+    }
+    section.usp-module .usp-wrapper .col .icons {
+        display: block;
+        width: 15%;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    section.usp-module .usp-wrapper .col {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 18px auto;
+    }
+}

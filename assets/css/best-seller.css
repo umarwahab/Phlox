@@ -1,0 +1,132 @@
+.seller-modules {
+    width: 100%;
+    display: block;
+}
+
+.seller-modules .seller-wrapper {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.seller-modules .seller-wrapper .main-heading {
+    text-align: center;
+}
+
+.seller-modules .seller-wrapper .main-heading h1 {
+    font-family: poppins, Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -1.7px;
+    margin: 5px 0;
+}
+
+.seller-modules .seller-wrapper .main-heading span {
+    color: #adacac;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* product -weapper */
+
+.product-wrapper {
+    width: 100%;
+    display: block;
+    margin-top: 5%;
+}
+
+.product-wrapper .row {
+    display: flex;
+    width: 100%;
+    margin: 10px 0 50px 0;
+    flex-wrap: wrap;
+}
+
+.product-wrapper .row .col {
+    width: 23%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product-wrapper .row .col .product-image {
+    width: 100%;
+}
+
+.product-wrapper .row .col .product-image img {
+    border-radius: 15px;
+}
+
+.product-wrapper .row .col .product-description h5 {
+    color: #000;
+    font-family: poppins, Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+}
+
+.product-wrapper .row .col .product-description span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.seller-wrapper .product-wrapper .row .col .product-cart h5 {
+    color: #f42c37;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 25px 0;
+}
+
+.seller-wrapper .product-wrapper .row .col .product-cart a {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 25px;
+    background-color: #f42c37;
+    letter-spacing: -1px;
+    line-height: 19px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.seller-wrapper .product-wrapper .row .col .product-cart {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    display: none;
+}
+
+.product-wrapper .row .col:hover .product-cart {
+    transition: all 4s;
+    display: block;
+}
+
+.product-wrapper .row .col:hover .product-description {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .product-wrapper .row .col {
+        width: 40%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-wrapper .row .col {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .seller-modules .seller-wrapper .main-heading h1 {
+        font-size: 34px;
+    }
+    .seller-modules .seller-wrapper .main-heading span {
+        font-size: 14px;
+    }
+}

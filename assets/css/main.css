@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.shop-navigation .fa-bars {
+    display: none;
+}
+
+
+/* menu  responsive */
+
+@media screen and (max-width:767px) {
+    .header-module .row .main-navigation {
+        display: none;
+    }
+    .shop-navigation .fa-bars {
+        display: block;
+    }
+    .header-module .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-module .row .shop-navigation {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-module .row .main-navigation {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-module .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .header-module .row .logo {
+        width: auto;
+    }
+    .header-module .row .shop-navigation {
+        width: 50%;
+        padding: 20px 0;
+    }
+}

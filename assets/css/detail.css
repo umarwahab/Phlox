@@ -1,0 +1,238 @@
+section.detail-modules {
+    width: 100%;
+    display: block;
+}
+
+.detail-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.detail-wrapper .product-image {
+    width: 60%;
+}
+
+.detail-wrapper .product-content {
+    width: 40%;
+    padding: 4% 5%;
+}
+
+.detail-wrapper .product-image img {
+    border-radius: 8px;
+}
+
+.detail-wrapper .checked {
+    color: orange;
+}
+
+.rating-box {
+    display: flex;
+    margin: 13px 0;
+}
+
+.rating-box .comment {
+    margin-left: 20px;
+    display: block;
+}
+
+
+/* counter */
+
+.action-box h3 {
+    display: block;
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.action-box .product-quantity {
+    display: block;
+    position: relative;
+    width: 40%;
+}
+
+.action-box input {
+    max-width: 65%;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.action-box .quantity-selectors-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.action-box .quantity-selectors {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 88px;
+    z-index: 921213;
+    top: 9px;
+}
+
+.action-box .quantity-selectors button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: grey;
+}
+
+.action-box .quantity-selectors button:first-child {
+    border-bottom: 0;
+}
+
+.action-box .quantity-selectors button:hover {
+    cursor: pointer;
+}
+
+.action-box .quantity-selectors button[disabled="disabled"] {
+    cursor: not-allowed;
+}
+
+.action-box .quantity-selectors button[disabled="disabled"] span {
+    opacity: 0.5;
+}
+
+.cart-btn {
+    display: block;
+}
+
+.cart-btn a {
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 50px;
+    border-radius: 24px;
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.detail-wrapper .product-content .action-box {
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    margin: 15% 0;
+}
+
+
+/* tabs header */
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 35px 0px 0 0;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 50px;
+    color: #ccc;
+    background: none;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    color: #000;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.actve {
+    background: none;
+    border-top: 3px solid red;
+    color: #000;
+}
+
+
+/* Style the tab content */
+
+section.details--wrap .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    width: 80%;
+    margin: 70px auto;
+}
+
+section.details--wrap {
+    margin: 50px 0;
+}
+
+section.details--wrap .tabcontent p {
+    line-height: 1.5;
+}
+
+section.details--wrap .tabcontent .comment-box {
+    padding: 60px 30px;
+    background: #efefef;
+    border-radius: 20px;
+}
+
+.comment-box .comment-row {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.comment-img {
+    display: block;
+}
+
+.comment-img img {
+    border-radius: 35px;
+}
+
+.comment-row .name {
+    line-height: 1.7;
+}
+
+.rating .checked {
+    color: #f42c37;
+}
+
+.detail-wrapper .product-content h1 {
+    margin: 20px 0;
+}
+
+.detail-wrapper .product-content .prize-box {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.detail-wrapper .product-content .descrtiption-box {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}

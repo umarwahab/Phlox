@@ -1,0 +1,198 @@
+.is--cart .shopping-cart {
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.is--cart .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.is--cart .item {
+    padding: 20px 30px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.is--cart .item:nth-child(3) {
+    border-top: 1px solid #E1E8EE;
+    border-bottom: 1px solid #E1E8EE;
+}
+
+.is--cart .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+}
+
+.is--cart .delete-btn,
+.is--cart .like-btn {
+    display: inline-block;
+    Cursor: pointer;
+}
+
+.is--cart .delete-btn {
+    width: 18px;
+    height: 17px;
+    background: url(&amp;quot;delete-icn.svg&amp;quot;) no-repeat center;
+}
+
+.is--cart .like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url('../../assets/img/twitter-heart.png');
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+}
+
+.is--cart .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+.is--cart .image {
+    margin-right: 50px;
+    width: 15%;
+}
+
+.is--cart .description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}
+
+.is--cart .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+
+.is--cart .description span:first-child {
+    margin-bottom: 5px;
+}
+
+.is--cart .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+}
+
+.is--cart .quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+}
+
+.is--cart .quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.is--cart button[class*=btn] {
+    /* width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none; */
+    cursor: pointer;
+}
+
+.is--cart .minus-btn img {
+    margin-bottom: 3px;
+}
+
+.is--cart .plus-btn img {
+    margin-top: 2px;
+}
+
+.is--cart button:focus,
+.is--cart input:focus {
+    outline: 0;
+}
+
+.is--cart .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.is--cart .chkout {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.is--cart .chkout a {
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 30px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .is--cart .quantity {
+        width: auto;
+        margin: auto;
+    }
+    .is--cart .description {
+        width: auto;
+        margin: auto;
+    }
+    .is--cart .image {
+        width: auto;
+        margin: auto;
+    }
+    .is--cart .buttons {
+        width: 30%;
+        margin: 10px auto;
+    }
+    .is--cart .item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .is--cart .chkout {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

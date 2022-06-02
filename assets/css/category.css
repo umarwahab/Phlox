@@ -1,0 +1,153 @@
+@media screen and (max-width:1440px) {
+    section.category-module .category-wrapper .row-1 .component-holder .main-title {
+        font-family: montserrat, Sans-serif;
+        font-size: 40px;
+    }
+    section.category-module .category-wrapper .row-1 .component-holder .laptop {
+        color: #f6565f;
+        font-family: montserrat, Sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 61px;
+        letter-spacing: -1.3px;
+    }
+    section.category-module .category-wrapper .row-1 .col-3 .img-holder {
+        position: absolute;
+        top: 0;
+        right: unset;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    section.category-module .category-wrapper .row-1 .col-1 {
+        width: 48%;
+    }
+    section.category-module .category-wrapper .row-1 .col-2 {
+        width: 48%;
+    }
+    section.category-module .category-wrapper .row-1 {
+        flex-wrap: wrap;
+    }
+    section.category-module .category-wrapper .row-1 .col-3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    section.category-module .category-wrapper .row-1 .col-1 .img-holder {
+        position: absolute;
+        top: -60px;
+        right: 0;
+    }
+    section.category-module .category-wrapper .row-2 {
+        flex-wrap: wrap;
+    }
+    section.category-module .category-wrapper .row-2 .col-3 {
+        width: 100%;
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #edeced 0%, #eef0f3 100%);
+        padding: 8% 2% 2% 2%;
+        border-radius: 20px;
+        position: relative;
+    }
+    section.category-module .category-wrapper .row-2 .col-2 .img-holder {
+        top: 39px;
+        background-position: top right;
+        background-size: 43% 89%;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    section.category-module .category-wrapper .row-2 .col-2 {
+        width: 48%;
+        background-color: #2dd06f;
+        padding: 8% 2% 20% 2%;
+        border-radius: 20px;
+        position: relative;
+        margin-top: 40px;
+    }
+    section.category-module .category-wrapper .row-2 .col-1 {
+        width: 48%;
+        background-color: #2dd06f;
+        padding: 8% 2% 20% 2%;
+        border-radius: 20px;
+        position: relative;
+        margin-top: 40px;
+    }
+    section.category-module .category-wrapper .row-2 .col-1 .img-holder {
+        position: absolute;
+        bottom: 0;
+        right: unset;
+        margin-left: 0;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    section.category-module .category-wrapper .row-2 .col-2 {
+        width: 100%;
+        padding: 8% 2% 24% 7%;
+        height: 40vh;
+    }
+    section.category-module .category-wrapper .row-2 .col-1 {
+        width: 100%;
+        padding: 8% 2% 24% 7%;
+        height: 40vh;
+    }
+    section.category-module .category-wrapper .row-2 .col-2 .img-holder {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    section.category-module .category-wrapper .row-1 .col-1 {
+        width: 100%;
+    }
+    section.category-module .category-wrapper .row-1 .col-2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    section.category-module .category-wrapper .row-1 .col-1 .img-holder {
+        position: absolute;
+        top: -10px;
+        left: 40%;
+        right: unset;
+    }
+    section.category-module .category-wrapper .row-1 .col-2 .img-holder {
+        position: absolute;
+        top: 20px;
+        max-width: 90%;
+        left: 40%;
+        right: unset;
+    }
+    section.category-module .category-wrapper .row-1 .col-3 .img-holder {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 40%;
+        right: unset;
+    }
+    .category-wrapper .row-1 .col-1 .component-holder {
+        padding: 20px 60px;
+    }
+    .category-wrapper .row-1 .col-2 .component-holder {
+        padding: 20px 60px;
+    }
+    .category-wrapper .row-1 .col-3 .component-holder {
+        padding: 20px 60px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    section.category-module .category-wrapper .row-2 .col-3 .img-holder {
+        position: absolute;
+        left: 48%;
+        bottom: unset;
+        top: 12px;
+    }
+    section.category-module .category-wrapper .row-2 .col-3 .img-holder img {
+        width: 50%;
+    }
+    section.category-module .category-wrapper .row-2 .col-3 .component-holder .main-title {
+        color: #fff;
+        font-size: 44px;
+    }
+}

@@ -1,0 +1,132 @@
+.openBtn {
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid #8d8585;
+    border-radius: 50%;
+    padding: 0px 10px;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.overlay button {
+    float: left;
+    width: 5%;
+    padding: 11px 15px;
+    background: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    font-weight: 400;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+
+/* ---------------------------Drop down Cart--------------------------------- */
+
+.dropbtn {
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dbdbdb;
+    min-width: 365px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    right: -10px;
+    top: 20px;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.cart:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content i.fa.fa-shopping-cart {
+    font-size: 80px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.dropdown .dropdown-content span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .dropdown-content {
+        min-width: 269px;
+        right: -57px;
+    }
+}

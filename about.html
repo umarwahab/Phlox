@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pholox | About us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="./assets/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper ">
+        <section class="header-module">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="index.html"> <img src="assets/img/logotype.png" alt=""></a>
+                    </div>
+                    <div class="main-navigation">
+                        <ul>
+                            <li>
+                                <a href="index.html" id="style-2" data-replace=" Home "><span>Home</span></a>
+                            </li>
+                            <li>
+                                <a href="shop.html" id="style-2" data-replace="Shop"><span>Shop</span></a>
+                            </li>
+                            <li>
+                                <a href="about.html" id="style-2" data-replace="About us"><span>About us</span></a>
+
+                            </li>
+                            <li>
+
+                                <a href="blog.html" id="style-2" data-replace="Blog"><span>Blog</span></a>
+
+                            </li>
+                            <li>
+
+                                <a href="contact.html" id="style-2" data-replace="Contact us"><span>Contact us</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- mobile nav start -->
+                    <div id="myNav" class="ovrlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="ovrlay-content">
+                            <a href="index.html">Home</a>
+                            <a href="shop.html">Shop</a>
+                            <a href="about.html">About</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                    <!-- mobile nav end -->
+                    <div class="shop-navigation">
+
+                        <i class="fa fa-bars" onclick="openNav()"></i>
+
+                        <a href="#" class="login" id="myBtn">login</a>
+                        <a class="search openBtn" onclick="openSearch()"><i class="fa fa-search"></i></a>
+                        <!-- <button class="search" onclick="openSearch()"><i class="fa fa-search "></i></button> -->
+
+                        <div class="dropdown">
+                            <button class="dropbtn cart"><i class="fa fa-shopping-bag"></i>
+                                <label>0</label>
+                            </button>
+                            <div class="dropdown-content">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <span>Cart is Empty!</span>
+                                <div class="cart-btns">
+                                    <a href="view-cart.html">View Cart</a><a href="checkout.html">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>User Login</h2>
+                </div>
+                <div class="modal-body">
+
+
+                    <form action="/action_page.php">
+
+                        <input type="text" id="fname" name="fname" placeholder="username"><br><br>
+
+                        <input type="password" id="lname" name="lname" placeholder="password" required><br><br>
+                        <input type="submit" value="Login">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <section class="customer-module">
+            <div class="container">
+                <div class="main-heading">
+
+
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+
+                    </ul>
+                    <h1>About us</h1>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="about-module">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="col-1">
+                        <span class="sub-title">Welcome to Phlox</span>
+                        <h1>Who We Are?</h1>
+                        <p>
+                            When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray
+
+                        </p>
+                        <p>
+                            When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray
+                        </p>
+                        <p>when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence .</p>
+                        <a href="#" class="btn-about">Contact Us</a>
+                    </div>
+                    <div class="col-2">
+                        <div class="img-wrap">
+                            <img src="./assets/img/main-about.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="customer-module">
+            <div class="container">
+                <div class="customer-wrapper">
+                    <div class="customer-title">
+                        <img src="./assets/img/Group-957.png">
+                    </div>
+                    <div class="customer-title">
+                        <img src="./assets/img/Group-956.png">
+                    </div>
+                    <div class="customer-title">
+                        <img src="./assets/img/client-9.png">
+                    </div>
+                    <div class="customer-title">
+                        <img src="./assets/img/client-5.png">
+                    </div>
+                    <div class="customer-title">
+                        <img src="./assets/img/Group-955.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer-module">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="col-1">
+                        <div class="footer-header">
+                            <img src="./assets/img/logotype.png">
+                        </div>
+                        <div class="footer-content">
+                            <p>There are many variations passages of Lorem Ipsum available, but the majority have</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="footer-header">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer-content">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="footer-header">
+                            <h3>Contact</h3>
+                        </div>
+                        <div class="footer-content">
+                            <p>+99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</p>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="footer-header">
+                            <h3>Subscribe To Our Email</h3>
+                        </div>
+                        <div class="footer-content">
+                            <h1>For Latest News & Updates</h1>
+
+                            <form class="subscribe">
+                                <input type="text" placeholder="Enter your email">
+                                <button class="btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="copyright-module">
+                    <div class="col-1">
+                        <p>© 2022 Phlox Digital Shop. All rights reserved.</p>
+                    </div>
+                    <div class="col-2">
+                        <div class="bottom-btn">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Term Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <script>
+        (function() {
+
+            var parent = document.querySelector(".range-slider");
+            if (!parent) return;
+
+            var
+                rangeS = parent.querySelectorAll("input[type=range]"),
+                numberS = parent.querySelectorAll("input[type=number]");
+
+            rangeS.forEach(function(el) {
+                el.oninput = function() {
+                    var slide1 = parseFloat(rangeS[0].value),
+                        slide2 = parseFloat(rangeS[1].value);
+
+                    if (slide1 > slide2) {
+                        [slide1, slide2] = [slide2, slide1];
+                        // var tmp = slide2;
+                        // slide2 = slide1;
+                        // slide1 = tmp;
+                    }
+
+                    numberS[0].value = slide1;
+                    numberS[1].value = slide2;
+                }
+            });
+
+            numberS.forEach(function(el) {
+                el.oninput = function() {
+                    var number1 = parseFloat(numberS[0].value),
+                        number2 = parseFloat(numberS[1].value);
+
+                    if (number1 > number2) {
+                        var tmp = number1;
+                        numberS[0].value = number2;
+                        numberS[1].value = tmp;
+                    }
+
+                    rangeS[0].value = number1;
+                    rangeS[1].value = number2;
+
+                }
+            });
+
+        })();
+    </script>
+</body>
+
+</html>

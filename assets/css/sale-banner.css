@@ -1,0 +1,151 @@
+section.sale-module {
+    width: 100%;
+    display: block;
+}
+
+section.sale-module .sale-wrapper {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #f24c55 0%, #f42c37 40%);
+    border-radius: 20px;
+    position: relative;
+    margin: 13% 0;
+}
+
+section.sale-module .sale-wrapper .col-1 {
+    width: 50%;
+    padding: 5% 12%;
+    float: left;
+}
+
+section.sale-module .sale-wrapper .col-2 {
+    width: 50%;
+    padding: 5% 12%;
+    float: left;
+}
+
+.sale-wrapper .image-component {
+    position: absolute;
+    top: -75%;
+    left: 64px;
+}
+
+.sale-module .sale-wrapper .col-1 .main-text {
+    font-family: montserrat, Sans-serif;
+    font-size: 109px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 90px;
+    letter-spacing: -3.5px;
+    color: #fff;
+}
+
+.sale-module .sale-wrapper .col-1 .sub-txt {
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.sale-module .sale-wrapper .col-1 .date {
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sale-wrapper .col-2 .text-component {
+    margin: 20px 0;
+}
+
+.sale-module .sale-wrapper .col-2 .text-component .sub-text {
+    font-family: poppins, Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #fff;
+    margin: 0 0 3px;
+}
+
+.sale-module .sale-wrapper .col-2 .text-component .title {
+    font-family: poppins, Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 63px;
+    letter-spacing: -2px;
+    color: #fff;
+    margin: 0;
+}
+
+.sale-module .sale-wrapper .col-2 .text-component .description {
+    color: #fff;
+    font-family: montserrat, Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 0 0 15px 0;
+    width: 80%;
+}
+
+.sale-module .sale-wrapper .col-2 .text-component .shop {
+    margin-top: 10%;
+}
+
+.sale-module .sale-wrapper .col-2 .text-component .shop a {
+    padding: 11px 37px;
+    background-color: #fff;
+    text-shadow: 0 0 10px transparent;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #f42c37;
+}
+
+.bg-green {
+    background-color: transparent !important;
+    background-image: radial-gradient(at top center, #51ec90 10%, #2dcc6e 46%) !important;
+}
+
+.sale-wrapper .image-component-2 {
+    position: absolute;
+    top: -62%;
+    left: 15%;
+}
+
+@media screen and (max-width:1023px) {
+    section.sale-module .sale-wrapper {
+        flex-direction: column;
+    }
+    section.sale-module .sale-wrapper .col-1 {
+        width: 50%;
+        padding: 5% 12%;
+        float: left;
+    }
+    section.sale-module .sale-wrapper .col-2 {
+        width: 100%;
+        padding: 5% 12%;
+        float: left;
+    }
+    .sale-module .sale-wrapper .col-1 .main-text {
+        font-family: montserrat, Sans-serif;
+        font-size: 55px;
+        line-height: 50px;
+        letter-spacing: -3.5px;
+        color: #fff;
+    }
+    .sale-module .sale-wrapper .col-2 .text-component .title {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .sale-wrapper .image-component-2 {
+        position: absolute;
+        top: 0%;
+        left: 40%;
+    }
+    .sale-wrapper .image-component {
+        position: absolute;
+        top: 0;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:767px) {}
